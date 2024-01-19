@@ -1,0 +1,7 @@
+POST http://localhost:7071/api/iniciar-aprovacao-desconto
+Content-Type: application/json
+
+{
+    "produto": "ProdutoX",
+    "percentualDesconto": 15
+}
